@@ -1,0 +1,367 @@
+/* RESPONSIVE */
+
+@media (max-width: 1250px) {
+    .max-width{
+        padding: 0 50px;
+    }
+    .navbar .line{
+        width: 100%;
+    }
+    .portfolio .carousel .card img{
+        width: 250px;
+        height: 250px;
+    }
+}
+
+
+@media (max-width: 1200px){
+    .portfolio .carousel .card img{
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media (max-width: 1196px) {
+    .max-width{
+        padding: 0 50px;
+    }
+    .portfolio .carousel .card img{
+        width: 240px;
+        height: 240px;
+    }
+    .portfolio .max-width .line{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .about .max-width .line{
+        width: 100%;
+    }
+    .contact .line{
+        width: 100%;
+    }
+    .about .about-content .right img{
+        width: 100%;
+        float: left;
+    }
+}
+
+@media (max-width: 1080px){
+    .portfolio .carousel .card img{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 947px){
+    .max-width{
+        padding: 0 50px;
+        /* max-width: 800px; */
+    }
+    .menu-btn{
+        display: block;
+        z-index: 999;
+    }
+    .menu-btn i.active::before{
+        content: "\f00d";
+        transition: all 0.3s ease-in;
+    }
+    .navbar .menu{
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        left: -100%;
+        top: 0;
+        background: #111;
+        text-align: center;
+        padding-top: 80px;
+        transition: all 0.3s ease;
+    }
+    .navbar .menu.active{
+        left: 0;
+    }
+    .navbar .menu li{
+        display: block;
+    }
+    .navbar .menu li a{
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 25px;
+    }
+    .about .about-content .column{
+        width: calc(50% - 20px);
+    }
+    .about .about-content .left .text{
+        font-size: 24px;
+    }
+    .about .about-content .left p{
+        font-size: 16px;
+    }
+    .portfolio .carousel .card img{
+        width: 190px;
+        height: 190px;
+    }
+    .portfolio .max-width .line{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .about .max-width .line{
+        width: 100%;
+    }
+    .contact .line{
+        width: 100%;
+    }
+    .contact .contact-content .left .text,
+    .contact .contact-content .right .text{
+        font-size: 24px;
+        margin-top: 0;
+    }
+    .contact .max-width{
+        height: 550px;
+    }
+}
+
+@media (max-width: 890px){
+    .portfolio .carousel .card img{
+        width: 160px;
+        height: 160px;
+    }
+}
+
+@media (max-width: 800px){
+    .max-width{
+        padding: 0 50px;
+    }
+    .portfolio .carousel .card img{
+        width: 160px;
+        height: 160px;
+    }
+    .portfolio .max-width .line{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .services .services-content .card{
+        width: calc(50% - 10px);
+        border-radius: 10px;
+        padding: 15px 15px;
+        margin-bottom: 15px;
+    }
+    .about .about-content .column{
+        width: calc(100% - 10px);
+    }
+    .about .about-content .right img{
+        width: 95%;
+        margin-top: 20px;
+        float: left;
+    }
+    .about .about-content .left .text{
+        font-size: 32px;
+    }
+    .about .max-width .line{
+        width: 100%;
+    }
+    .contact .contact-content .column{
+        width: calc(100% - 20px);
+    }
+    .contact .contact-content .left .text,
+    .contact .contact-content .right .text{
+        font-size: 28px;
+        margin-top: 0;
+    }
+    .contact .max-width{
+        height: 700px;
+    }
+    .contact .line{
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 750px){
+    .portfolio .carousel .card img{
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media (max-width: 700px){
+    .home .home-content img{
+        width: 100%;
+    }
+    .home .home-content .text{
+        font-size: 50px;
+    }
+    
+    .home .home-content .desc{
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+    .portfolio .carousel .card img{
+        width: 130px;
+        height: 130px;
+    }
+}
+
+@media (max-width: 655px){
+    .home .home-content .text{
+        font-size: 50px;
+    }
+    
+    .home .home-content .desc{
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+    
+    .home .home-content a{
+        padding: 10px 25px;
+        font-size: 16px;
+    }
+    .home .home-content img{
+        width: 90%;
+    }
+    .portfolio .carousel .card img{
+        width: 130px;
+        height: 130px;
+    }
+}
+
+@media (max-width: 670px){
+    .portfolio .carousel .card img{
+        width: 130px;
+        height: 130px;
+    }
+}
+
+
+@media (max-width: 620px){
+    .portfolio .carousel .card img{
+        width: 120px;
+        height: 120px;
+    }
+    .contact .max-width{
+        height: 750px;
+    }
+}
+
+
+
+@media (max-width: 550px){
+    .max-width{
+        padding: 0 50px;
+    }
+    .home .home-content .text{
+        font-size: 52px;
+    }
+    
+    .home .home-content .desc{
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+    
+    .home .home-content a{
+        padding: 10px 25px;
+        font-size: 16px;
+    }
+    .home .home-content img{
+        width: 90%;
+    }
+    .portfolio .carousel .card img{
+        width: 135px;
+        height: 135px;
+    }
+    .portfolio .max-width .line{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .services .services-content .card{
+        width: calc(50% - 10px);
+        border-radius: 10px;
+        padding: 15px 15px;
+        margin-bottom: 15px;
+    }
+    .about .about-content .column{
+        width: calc(100% - 10px);
+    }
+    .about .about-content .right img{
+        width: (100% - 20px);
+        float: left;
+        margin-top: 20px;
+    }
+    .about .about-content .left .text{
+        font-size: 32px;
+    }
+    .about .max-width .line{
+        width: 100%;
+    }
+    .contact .contact-content .column{
+        width: calc(100% - 20px);
+    }
+    .contact .contact-content .left .text,
+    .contact .contact-content .right .text{
+        font-size: 28px;
+        margin-top: 0;
+    }
+    .contact .max-width{
+        height: 750px;
+    }
+    .contact .line{
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px){
+    .portfolio .carousel .card img{
+        width: 110px;
+        height: 110px;
+    }
+}
+
+@media (max-width: 460px) {
+    .max-width {
+        padding: 0 50px;
+    }
+    .portfolio .carousel .card img{
+        width: 100px;
+        height: 100px;
+    }
+    .services .services-content .card{
+        width: calc(100% - 20px);
+        border-radius: 10px;
+        padding: 15px 15px;
+        margin-bottom: 15px;
+    }
+    .about .about-content .left .text{
+        font-size: 28px;
+    }
+    .about .about-content .right img{
+        display: none;
+    }
+    .about .about-content .left{
+        width: 100%;
+    }
+    .about .max-width .line{
+        width: 100%;
+    }
+    .about .about-content .left p{
+        font-size: 14px;
+        padding-right: 20px;
+    }
+    .contact .contact-content .column{
+        width: calc(100% - 20px);
+    }
+    
+    .contact .contact-content .left .text,
+    .contact .contact-content .right .text{
+        font-size: 28px;
+        margin-top: 0;
+    }
+    .contact .contact-content .left p{
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+    .contact .max-width{
+        height: 750px;
+    }
+    .contact .line{
+        width: 100%;
+    }
+ }
